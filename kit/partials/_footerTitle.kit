@@ -1,0 +1,17 @@
+<div class="grid">
+	<div class="grid__item one-whole islet">
+
+		<p class="smallprint text--center contact">&copy;
+		<?php
+			$startYear = 2013;
+			$thisYear = date('Y');
+			if ($startYear == $thisYear) {
+				echo $startYear;
+			} else {
+			echo "{$startYear}&#8211;{$thisYear}";
+			}
+			?>&nbsp;<!--$company-name-full-->&nbsp;All Rights Reserved<br>Site by&nbsp;<a rel="external" href="http://www.agraphicnature.com/">AGN</a>
+		</p>
+
+	</div>
+</div>
